@@ -1,0 +1,7 @@
+.commercial__image{
+    width: 100%;
+    max-width: 610px;
+    height: 200px;
+    object-fit: none;
+}
+

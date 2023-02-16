@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  .select {
+    position: relative;
+    width: 280px;
+    height: 55px;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width:768px) {
+    .select{
+      width: 226px;
+    }
+  }
+
+  .select[data-state=active] .select__title::before {
+    transform: translate(-3px, -50%) rotate(-45deg);
+  }
+  .select[data-state=active] .select__title::after {
+    transform: translate(3px, -50%) rotate(45deg);
+  }
+  .select[data-state=active] .select__content {
+    opacity: 1;
+  }
+  .select[data-state=active] .select__label + .select__input + .select__label {
+    max-height: 40px;
+  }
+   

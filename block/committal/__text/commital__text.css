@@ -1,0 +1,14 @@
+.committal__text{
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+@media screen and (min-width:768px) {
+    .committal__text{
+        font-size: 16px;
+line-height: 24px;
+
+    }
+}

@@ -1,0 +1,32 @@
+
+.feedback__textarea{
+    border-radius: 6px;
+    border: none;
+    width: 280px;
+    outline: none;
+    height: 120px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.feedback__textarea:focus + .feedback__label{
+    top: -15px
+}
+.feedback__textarea:valid + .feedback__label{
+    top: -15px
+}
+
+
+@media screen and (min-width:768px) {
+    .feedback__textarea{
+        margin-bottom: 20px;
+        width: 738px;
+    }
+}
+
+

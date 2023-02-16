@@ -1,0 +1,35 @@
+.select__title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Arial';
+    color: black;
+    font-style: normal;
+  }
+  .select__title::before, .select__title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    display: block;
+    width: 10px;
+    height: 2px;
+    transition: all 0.3s ease-out;
+    background-color: #333333;
+    transform: translate(-3px, -50%) rotate(45deg);
+  }
+  .select__title::after {
+    transform: translate(3px, -50%) rotate(-45deg);
+  }
+  .select__title:hover {
+    border-color: #ffffff;
+  }
+  .select__title:hover::before, .select__title:hover::after {
+    background-color: #ffffff;
+  }

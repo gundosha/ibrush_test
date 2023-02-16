@@ -1,0 +1,13 @@
+.feedback__btn{
+    width: 280px;
+    height: 44px;
+    background-color: #0062FF;
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    border-radius: 2px;
+}

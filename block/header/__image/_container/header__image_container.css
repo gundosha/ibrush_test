@@ -1,0 +1,13 @@
+.header__image_container{
+    width:200;
+    height:200;
+    overflow:scroll;
+    margin-left: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .header__image_container{
+        overflow:visible;
+        margin-left: 0px;
+    }
+}

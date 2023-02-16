@@ -1,0 +1,15 @@
+.header__text{
+    margin: 0;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+@media screen and (min-width:768px) {
+    .header__text{
+        font-style: 18px;
+    }
+}

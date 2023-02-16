@@ -1,0 +1,8 @@
+.footer__image{
+    width: 280px;
+}
+@media screen and (min-width:768px) {
+    .footer__image{
+        width: 226px;
+    }
+}

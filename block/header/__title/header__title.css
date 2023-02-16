@@ -1,0 +1,31 @@
+.header__title {
+   margin: 0;
+   width:100%;
+    text-align:center;
+     border-bottom: 0.5px solid #DCDCDC; 
+     line-height:0.1em;
+     margin-top: 15px;
+  margin-bottom: 20px;
+} 
+.header__title span {
+   background:#fff;
+   padding:0 10px;
+   font-family: 'Consolas';
+   color: #0062FF;
+   font-style: normal;
+   font-size: 23px;
+}
+
+.header__title span{
+background:#fff;
+ padding:0 10px; 
+}
+
+@media screen and (min-width:768px) {
+   .header__title{
+      margin-bottom: 64px;
+   }
+   .header__title span{
+       font-size: 48px;
+   }
+}

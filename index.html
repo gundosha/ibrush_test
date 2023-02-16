@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Ibrush</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title" ><span>Путь JavaScript</span></h1>
+        <div class="header__text_container">
+            <p class="header__text header__text_small">
+                Можно выделить три основных направления для прогресса JavaScript Middle...
+            </p>
+            <div class="header__image_container">
+                <img src="./image/books-1.png" alt="картинка с книгами по JS скролл" class="header__image">
+            </div>
+        </div>
+        <h3 class="header__subtitle">
+            Серверный JavaScript
+        </h3>
+        <div class="header__container">
+            <img src="./image/quotation mark 1.svg" alt="иконка текста" class="header__icon" >
+            <figure class="quote">
+                <blockquote class="header__text">
+                    Разработчики и клиенты часто неправильно понимают, что такое система. Они видят графический интерфейс и думают, что он и есть система. Они определяют систему в терминах графического интерфейса и считают, что должны сразу начать работу с графическим интерфейсом. Они не понимают важнейшего принципа: ввод/вывод не важен.
+                </blockquote>
+                <figcaption class="header__text_author">
+                    — Р. Мартин
+                  </figcaption>
+            </figure>
+        </div>
+    </header>
+    <section class="commercial">
+        <div class="commercial__container">
+            <h2 class="commercial__title">Реклама на <a href="blabla.com" target="_blank">blabla.com</a></h2>
+            <img src="./image/Группа 1 1.png" alt="картинка с книгами" class="commercial__image">
+        </div>
+    </section>
+    <section class="committal">
+        <h3 class="committal__title">
+            Заключение
+        </h3>
+        <p class="committal__text">
+            Синхрония осознаёт сюжетный верлибр. Мифопорождающее текстовое устройство диссонирует лирический субъект. Абстрактное высказывание пространственно просветляет деструктивный символ. Ямб, несмотря на то, что все эти характерологические черты отсылают не к единому образу нарратора, интегрирует мифопоэтический хронотоп. Действительно, ударение приводит палимпсест. Контрапункт приводит ритм.
+        </p>
+    </section>
+    <section class="feedback">
+        <div class="feedback__container">
+            <h3 class="feedback__title">Оцените статью</h3>
+            <ul class="star__container">
+                <li class="star-icon" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+            </ul>
+            <p class="feedback__subtitle">
+                Добавить комментарий к книге
+            </p>
+            <form class="feedback__form">
+                <div class="feedback__holder">
+                    <input class="feedback__input" type="text" id="name" required>
+                    <label class="feedback__label"  for="name">Имя</label>
+                </div>
+                <div class="feedback__holder">
+                    <input class="feedback__input" type="email" id="email" required>
+                    <label class="feedback__label" for="email">E-mail</label>
+                </div>
+                <div class="select" data-state="">
+                    <div class="select__title" data-default="Выберите книгу">Выберите книгу</div>
+                    <div class="select__content">
+                    <input id="singleSelect0" class="select__input" type="radio" name="singleSelect" checked />
+                    <label for="singleSelect0" class="select__label">Выберите книгу</label>
+                    <input id="singleSelect1" class="select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect1" class="select__label ">JavaScript ниндзя</label>
+                    <input id="singleSelect2" class="select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect2" class="select__label">Pragmatic Guide to JavaScript</label>
+                    <input id="singleSelect3" class="select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect3" class="select__label">Pro JavaScript Techniques</label>
+                    <input id="singleSelect4" class="select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect4" class="select__label">Выразительный JavaScript</label>
+                    </div>
+                </div>
+                <div class="feedback__holder">
+                    <textarea class="feedback__textarea" type="text" id="text" required></textarea>
+                    <label class="feedback__label" for="email">Ваш отзыв</label>
+                </div>
+                <button class="feedback__btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <h3 class="footer__title">Похожие посты</h3>
+        <div class="footer__slider swiper-container">
+            
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./image/react.svg" alt="иконка реакт" class="footer__image">
+                    <p class="footer__text">События жизненного цикла ReactJS</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/css.svg" alt="иконка реакт" class="footer__image">
+                    <p class="footer__text">CSS Grids. Полное руководство</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/js.svg" alt="иконка реакт" class="footer__image">
+                    <p class="footer__text">Асинхронность в JavaScript</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src='./js/swiper.js'></script>
+<script src="./js/script.js"></script>
+</html>

@@ -1,0 +1,18 @@
+.committal__title{
+    margin: 0;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .committal__title{
+        margin-top: 45px;
+        margin-bottom: 25px;
+        font-size: 28px;
+line-height: 36px;
+    }
+}

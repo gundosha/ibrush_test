@@ -1,0 +1,19 @@
+.select__input {
+    display: none;
+    outline: none;
+    height: 50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  .select__input:checked + label {
+    background-color: #ffffff;
+  }
+  .select__input:disabled + label {
+    opacity: 0.6;
+    pointer-events: none;
+  }

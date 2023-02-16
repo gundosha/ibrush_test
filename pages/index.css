@@ -1,0 +1,83 @@
+/* VENDOR */
+
+@import url(../vendor/normalize.css);
+
+
+/* BODY */
+
+@import url(../block/body/body.css);
+
+
+
+
+/* HEADER */
+
+@import url(../block/header/__container/header__container.css);
+@import url(../block/header/__icon/header__icon.css);
+@import url(../block/header/__image/_container/header__image_container.css);
+@import url(../block/header//__image/header__image.css);
+@import url(../block/header/__subtitle/header__subtitle.css);
+@import url(../block/header/__text/_author/header__text_author.css);
+@import url(../block/header/__text/_container/header__text_container.css);
+@import url(../block/header/__text/_small/header__text_small.css);
+@import url(../block/header/__title/header__title.css);
+@import url(../block/header/__text/header__text.css);
+@import url(../block/header/header.css);
+
+
+/* QUOTE */
+
+@import url(../block/quote/qoute.css);
+
+/* COMMERICAL */
+
+@import url(../block/commercial/__container/commercial__container.css);
+@import url(../block/commercial/__image/commercial__image.css);
+@import url(../block/commercial/__title/commercial__title.css);
+@import url(../block/commercial/commercial.css);
+
+/*COMMITTAL*/
+
+@import url(../block/committal/__text/commital__text.css);
+@import url(../block/committal/__title/committal__title.css);
+@import url(../block/committal/committal.css);
+
+/* FEEDBACK */
+
+@import url(../block/feedback/__container/feedback__container.css);
+@import url(../block/feedback/__form/feedback__form.css);
+@import url(../block/feedback/__holder/feedback__holder.css);
+@import url(../block/feedback/__input/feedback__input.css);
+@import url(../block/feedback/__label/feedback__label.css);
+@import url(../block/feedback/__select/feedback__select.css);
+@import url(../block/feedback/__btn/feedback__btn.css);
+@import url(../block/feedback/__subtitle/feedback__subtitle.css);
+@import url(../block/feedback/__textarea/feedback__textarea.css);
+@import url(../block/feedback/__title/feedback__title.css);
+@import url(../block/feedback/feedback.css);
+
+/*STAR*/
+
+@import url(../block/star/__container/star__container.css);
+@import url(../block/star/-icon/star-icon.css);
+
+
+/*SELECT*/
+
+@import url(../block/select/__container/select__container.css);
+@import url(../block/select/__input/select__input.css);
+@import url(../block/select/__label/select__label.css);
+@import url(../block/select/__title/select__title.css);
+@import url(../block/select/select.css);
+
+
+/* FOOTER */
+
+@import url(../block/footer/__image/footer__image.css);
+@import url(../block/footer/__text/footer__text.css);
+@import url(../block/footer/__title/footer__title.css);
+@import url(../block/footer/footer.css);
+
+/*SWIPER*/
+@import url(../block/swiper/-pagination/swiper-pagination.css);
+

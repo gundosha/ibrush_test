@@ -1,0 +1,12 @@
+.header__text_small{
+    margin-left: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .header__text_small{
+        padding-bottom: 50px;
+        border-bottom: 1px solid #DCDCDC;
+        margin-left: 0;
+        font-style: 14px;
+    }
+}

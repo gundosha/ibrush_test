@@ -1,0 +1,12 @@
+.header__container{
+    display: flex;
+    align-items: flex-start;
+    margin: 12px 20px 55px 20px;
+}
+
+@media screen and (min-width:768px) {
+    .header__container{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
